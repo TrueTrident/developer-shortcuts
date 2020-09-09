@@ -8,3 +8,6 @@ git_exec () {
     git commit -a -m "$1"
     git push
 }
+
+# Export command to hold secrets
+export TOP_SECRET='TopSecretPWD'
